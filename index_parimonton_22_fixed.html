@@ -1,0 +1,139 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ชี้ให้ — ร้านซ่อมมือถือ ปริมณฑล 22 พิกัด</title>
+<style>
+:root{--navy:#0b2347;--yellow:#f6c945;--bg:#f4f6f8;--white:#fff;--muted:#687386;--border:#dce2ea}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans Thai",sans-serif;color:#142033}
+header{background:var(--navy);color:#fff;padding:28px 18px} .max{max-width:820px;margin:auto}
+.brand{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:900;border-radius:999px;padding:6px 11px}
+h1{font-size:clamp(27px,6vw,42px);margin:12px 0 5px;line-height:1.15} header p{margin:0;color:#dbe4f2}
+main{max-width:820px;margin:auto;padding:18px} .stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.stat,.controls,.shop,.notice{background:#fff;border:1px solid var(--border);border-radius:16px}
+.stat{padding:14px} .stat b{display:block;font-size:25px;color:var(--navy)} .stat span{font-size:13px;color:var(--muted)}
+.controls{padding:14px;margin-bottom:12px} label{display:block;font-size:13px;font-weight:800;color:var(--navy);margin-bottom:6px}
+input[type=search]{width:100%;border:1px solid var(--border);border-radius:11px;padding:12px;font-size:16px;background:#fff}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.filters input{position:absolute;opacity:0;pointer-events:none}
+.filters label{margin:0;border:1px solid var(--border);background:#fff;color:var(--navy);padding:9px 12px;border-radius:999px;font-weight:800;cursor:pointer;font-size:14px}
+#f-all:checked~.filters label[for=f-all],
+#f-nonthaburi:checked~.filters label[for=f-nonthaburi],
+#f-pathum:checked~.filters label[for=f-pathum],
+#f-samutprakan:checked~.filters label[for=f-samutprakan],
+#f-samutsakhon:checked~.filters label[for=f-samutsakhon],
+#f-nakhonpathom:checked~.filters label[for=f-nakhonpathom]{background:var(--yellow);border-color:var(--navy)}
+.list{display:grid;gap:10px}
+.shop{padding:14px;display:grid;grid-template-columns:44px 1fr;gap:12px}
+.num{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--yellow);border:2px solid var(--navy);font-weight:900;color:var(--navy)}
+.name{font-weight:900;color:var(--navy);font-size:16px;line-height:1.35} .area{font-weight:700;margin-top:5px}
+.place{font-size:14px;color:var(--muted);margin-top:4px} a{display:inline-block;margin-top:10px;background:var(--navy);color:#fff;text-decoration:none;padding:10px 12px;border-radius:10px;font-weight:800;font-size:14px}
+.notice{padding:14px;margin-top:16px;background:#fff8df;border-color:#ead57f;font-size:13px;line-height:1.55}
+footer{max-width:820px;margin:auto;padding:0 18px 28px;color:var(--muted);font-size:12px;line-height:1.5}
+#f-nonthaburi:checked~.list .shop:not(.nonthaburi),
+#f-pathum:checked~.list .shop:not(.pathum),
+#f-samutprakan:checked~.list .shop:not(.samutprakan),
+#f-samutsakhon:checked~.list .shop:not(.samutsakhon),
+#f-nakhonpathom:checked~.list .shop:not(.nakhonpathom){display:none}
+.hidden{display:none!important}
+</style></head><body>
+<header><div class="max"><span class="brand">ชี้ให้ 📍</span><h1>ร้านซ่อมมือถือ — ปริมณฑล</h1><p>22 พิกัด • 5 จังหวัด • กดดูข้อมูลต่อใน Google Maps</p></div></header>
+<main>
+<div class="stats"><div class="stat"><b>22</b><span>พิกัดที่ Audit แล้ว</span></div><div class="stat"><b>5</b><span>จังหวัดปริมณฑล</span></div></div>
+<div class="controls"><label for="q">ค้นหาชื่อร้าน / อำเภอ / จังหวัด</label><input id="q" type="search" placeholder="เช่น บางใหญ่, Future Park, นครปฐม"></div>
+
+<input id="f-all" type="radio" name="province" checked>
+<input id="f-nonthaburi" type="radio" name="province">
+<input id="f-pathum" type="radio" name="province">
+<input id="f-samutprakan" type="radio" name="province">
+<input id="f-samutsakhon" type="radio" name="province">
+<input id="f-nakhonpathom" type="radio" name="province">
+
+<div class="filters">
+<label for="f-all">ทุกจังหวัด</label>
+<label for="f-nonthaburi">นนทบุรี</label>
+<label for="f-pathum">ปทุมธานี</label>
+<label for="f-samutprakan">สมุทรปราการ</label>
+<label for="f-samutsakhon">สมุทรสาคร</label>
+<label for="f-nakhonpathom">นครปฐม</label>
+</div>
+
+<section class="list"><article class="shop nonthaburi" data-search="ton iphone fix clinic - central westgate นนทบุรี บางใหญ่ central westgate, บางใหญ่">
+<div class="num">01</div><div class="info"><div class="name">Ton iPhone Fix clinic - Central Westgate</div>
+<div class="area">อ.บางใหญ่ • นนทบุรี</div><div class="place">📍 Central WestGate, บางใหญ่</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Ton%20iPhone%20Fix%20clinic%20Central%20Westgate" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nonthaburi" data-search="yukifix บางใหญ่ ร้านซ่อมโทรศัพท์มือถือ นนทบุรี บางใหญ่ the square, บางใหญ่">
+<div class="num">02</div><div class="info"><div class="name">YukiFix บางใหญ่ ร้านซ่อมโทรศัพท์มือถือ</div>
+<div class="area">อ.บางใหญ่ • นนทบุรี</div><div class="place">📍 The Square, บางใหญ่</div>
+<a href="https://www.google.com/maps/search/?api=1&query=YukiFix%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%20%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%A8%E0%B8%B1%E0%B8%9E%E0%B8%97%E0%B9%8C%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nonthaburi" data-search="ศูนย์ซ่อมมือถือ p.a.mobile fix นนทบุรี ปากเกร็ด lake view condominium, bond street, ปากเกร็ด">
+<div class="num">03</div><div class="info"><div class="name">ศูนย์ซ่อมมือถือ P.A.Mobile Fix</div>
+<div class="area">อ.ปากเกร็ด • นนทบุรี</div><div class="place">📍 Lake View Condominium, Bond Street, ปากเกร็ด</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%20P.A.Mobile%20Fix%20%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nonthaburi" data-search="appfix ซ่อมมือถือ นนทบุรี บางบัวทอง ถนนบางกรวย-ไทรน้อย, บางบัวทอง">
+<div class="num">04</div><div class="info"><div class="name">AppFix ซ่อมมือถือ</div>
+<div class="area">อ.บางบัวทอง • นนทบุรี</div><div class="place">📍 ถนนบางกรวย-ไทรน้อย, บางบัวทอง</div>
+<a href="https://www.google.com/maps/search/?api=1&query=AppFix%20%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%20%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%87" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop pathum" data-search="ร้านซ่อมไอโฟน ไอแพด แมคบุ๊ค จอแอปเปิ้ลวอช ช่างป่าน ipran service ฟิวเจอร์พาร์ครังสิต ชั้น3 ปทุมธานี ธัญบุรี future park rangsit ชั้น 3 ห้อง plz.3 rts049">
+<div class="num">05</div><div class="info"><div class="name">ร้านซ่อมไอโฟน ไอแพด แมคบุ๊ค จอแอปเปิ้ลวอช ช่างป่าน iPran Service ฟิวเจอร์พาร์ครังสิต ชั้น3</div>
+<div class="area">อ.ธัญบุรี • ปทุมธานี</div><div class="place">📍 Future Park Rangsit ชั้น 3 ห้อง PLZ.3 RTS049</div>
+<a href="https://www.google.com/maps/search/?api=1&query=iPran%20Service%20Future%20Park%20Rangsit" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop pathum" data-search="ร้านมิสเตอร์ ซ่อม iphone ipad macbook มือถือ รังสิต ธัญบุรี ปทุมธานี ปทุมธานี ธัญบุรี future park rangsit ชั้น 3 ห้อง its056">
+<div class="num">06</div><div class="info"><div class="name">ร้านมิสเตอร์ ซ่อม iPhone iPad Macbook มือถือ รังสิต ธัญบุรี ปทุมธานี</div>
+<div class="area">อ.ธัญบุรี • ปทุมธานี</div><div class="place">📍 Future Park Rangsit ชั้น 3 ห้อง ITS056</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Mister%20Service%20Future%20Park%20Rangsit" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop pathum" data-search="จุ๋ม โมบาย ปทุมธานี เมืองปทุมธานี 52 ถ.ปทุมสัมพันธ์ ต.บางปรอก">
+<div class="num">07</div><div class="info"><div class="name">จุ๋ม โมบาย</div>
+<div class="area">อ.เมืองปทุมธานี • ปทุมธานี</div><div class="place">📍 52 ถ.ปทุมสัมพันธ์ ต.บางปรอก</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B8%88%E0%B8%B8%E0%B9%8B%E0%B8%A1%20%E0%B9%82%E0%B8%A1%E0%B8%9A%E0%B8%B2%E0%B8%A2%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop pathum" data-search="เปิ้ลโมบายคลอง3 หมู่บ้านพฤกษาc ปทุมธานี คลองหลวง คลองสาม">
+<div class="num">08</div><div class="info"><div class="name">เปิ้ลโมบายคลอง3 หมู่บ้านพฤกษาc</div>
+<div class="area">อ.คลองหลวง • ปทุมธานี</div><div class="place">📍 คลองสาม</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%A5%E0%B9%82%E0%B8%A1%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%873%20%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutprakan" data-search="ซ่อมมือถือสมุทรปราการ(i’m kmmobile) สมุทรปราการ เมืองสมุทรปราการ robinson samut prakan ชั้น 3 zone it">
+<div class="num">09</div><div class="info"><div class="name">ซ่อมมือถือสมุทรปราการ(I’m KmMobile)</div>
+<div class="area">อ.เมืองสมุทรปราการ • สมุทรปราการ</div><div class="place">📍 Robinson Samut Prakan ชั้น 3 Zone IT</div>
+<a href="https://www.google.com/maps/search/?api=1&query=I%27m%20KmMobile%20Robinson%20Samut%20Prakan" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutprakan" data-search="ร้าน o.i.l phone ซ่อมมือถือ(สำโรง) สมุทรปราการ เมืองสมุทรปราการ สำโรง">
+<div class="num">10</div><div class="info"><div class="name">ร้าน O.I.L PHONE ซ่อมมือถือ(สำโรง)</div>
+<div class="area">อ.เมืองสมุทรปราการ • สมุทรปราการ</div><div class="place">📍 สำโรง</div>
+<a href="https://www.google.com/maps/search/?api=1&query=O.I.L%20PHONE%20%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%20%E0%B8%AA%E0%B8%B3%E0%B9%82%E0%B8%A3%E0%B8%87" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutprakan" data-search="ร้านซ่อมด่วนมือถือ ห้างโลตัส ศรีนครินทร์ ร้านโซดา โมบาย สมุทรปราการ เมืองสมุทรปราการ lotus srinakarin">
+<div class="num">11</div><div class="info"><div class="name">ร้านซ่อมด่วนมือถือ ห้างโลตัส ศรีนครินทร์ ร้านโซดา โมบาย</div>
+<div class="area">อ.เมืองสมุทรปราการ • สมุทรปราการ</div><div class="place">📍 Lotus Srinakarin</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B9%82%E0%B8%8B%E0%B8%94%E0%B8%B2%20%E0%B9%82%E0%B8%A1%E0%B8%9A%E0%B8%B2%E0%B8%A2%20%E0%B9%82%E0%B8%A5%E0%B8%95%E0%B8%B1%E0%B8%AA%20%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutprakan" data-search="ซ่อมโทรศัพท์ ทีเอ็มโมบาย tm ซอยประชาสามัคคี (กระทิงแดง) สมุทรปราการ พระสมุทรเจดีย์ ซอยประชาสามัคคี (กระทิงแดง)">
+<div class="num">12</div><div class="info"><div class="name">ซ่อมโทรศัพท์ ทีเอ็มโมบาย TM ซอยประชาสามัคคี (กระทิงแดง)</div>
+<div class="area">อ.พระสมุทรเจดีย์ • สมุทรปราการ</div><div class="place">📍 ซอยประชาสามัคคี (กระทิงแดง)</div>
+<a href="https://www.google.com/maps/search/?api=1&query=TM%20Mobile%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutprakan" data-search="jaunplus ศูนย์มือถือพระสมุทรเจดีย์ สมุทรปราการ พระสมุทรเจดีย์ ปากคลองบางปลากด">
+<div class="num">13</div><div class="info"><div class="name">JaunPlus ศูนย์มือถือพระสมุทรเจดีย์</div>
+<div class="area">อ.พระสมุทรเจดีย์ • สมุทรปราการ</div><div class="place">📍 ปากคลองบางปลากด</div>
+<a href="https://www.google.com/maps/search/?api=1&query=JaunPlus%20%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutsakhon" data-search="houk & bank สาขา มหาชัย สมุทรสาคร สมุทรสาคร เมืองสมุทรสาคร มหาชัย">
+<div class="num">14</div><div class="info"><div class="name">Houk & Bank สาขา มหาชัย สมุทรสาคร</div>
+<div class="area">อ.เมืองสมุทรสาคร • สมุทรสาคร</div><div class="place">📍 มหาชัย</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Houk%20Bank%20%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A2%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutsakhon" data-search="mobilefix@sai4 สมุทรสาคร กระทุ่มแบน อ้อมน้อย / พุทธมณฑลสาย 4">
+<div class="num">15</div><div class="info"><div class="name">MobileFix@Sai4</div>
+<div class="area">อ.กระทุ่มแบน • สมุทรสาคร</div><div class="place">📍 อ้อมน้อย / พุทธมณฑลสาย 4</div>
+<a href="https://www.google.com/maps/search/?api=1&query=MobileFix%40Sai4%20%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%97%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%84%E0%B8%A3" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutsakhon" data-search="ช่างท๊อป บ้านแพ้ว ซ่อมมือถือ สมุทรสาคร บ้านแพ้ว บ้านแพ้ว">
+<div class="num">16</div><div class="info"><div class="name">ช่างท๊อป บ้านแพ้ว ซ่อมมือถือ</div>
+<div class="area">อ.บ้านแพ้ว • สมุทรสาคร</div><div class="place">📍 บ้านแพ้ว</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%97%E0%B9%8A%E0%B8%AD%E0%B8%9B%20%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%9E%E0%B9%89%E0%B8%A7%20%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop samutsakhon" data-search="ร้านช่างหมู บิ๊กซีมหาชัย1 ซ่อมไอโฟน ซ่อมมือถือ ลอกกระจก เปลี่ยนจอ เปลี่ยนแบต เปลี่ยนฝาหลังไอโฟน สมุทรสาคร เมืองสมุทรสาคร บิ๊กซีมหาชัย 1 ชั้น 1 ล็อก gbb041">
+<div class="num">17</div><div class="info"><div class="name">ร้านช่างหมู บิ๊กซีมหาชัย1 ซ่อมไอโฟน ซ่อมมือถือ ลอกกระจก เปลี่ยนจอ เปลี่ยนแบต เปลี่ยนฝาหลังไอโฟน</div>
+<div class="area">อ.เมืองสมุทรสาคร • สมุทรสาคร</div><div class="place">📍 บิ๊กซีมหาชัย 1 ชั้น 1 ล็อก GBB041</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%20%E0%B8%9A%E0%B8%B4%E0%B9%8A%E0%B8%81%E0%B8%8B%E0%B8%B5%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%B1%E0%B8%A21%20%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nakhonpathom" data-search="mobilefix it นครปฐม นครปฐม เมืองนครปฐม 666/165 ต.บ่อพลับ">
+<div class="num">18</div><div class="info"><div class="name">MobileFix iT นครปฐม</div>
+<div class="area">อ.เมืองนครปฐม • นครปฐม</div><div class="place">📍 666/165 ต.บ่อพลับ</div>
+<a href="https://www.google.com/maps/search/?api=1&query=MobileFix%20iT%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nakhonpathom" data-search="bbfix ซ่อมไอโฟน ซ่อมmacbook ซ่อมimac ซ่อมมือถือนครปฐม ซ่อมคอมพิวเตอร์ by bbcomputer นครปฐม เมืองนครปฐม ถ.มาลัยแมน">
+<div class="num">19</div><div class="info"><div class="name">BBFix ซ่อมไอโฟน ซ่อมmacbook ซ่อมiMac ซ่อมมือถือนครปฐม ซ่อมคอมพิวเตอร์ By BBComputer</div>
+<div class="area">อ.เมืองนครปฐม • นครปฐม</div><div class="place">📍 ถ.มาลัยแมน</div>
+<a href="https://www.google.com/maps/search/?api=1&query=BBFix%20Studio%20BBComputer%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nakhonpathom" data-search="bank computer ซ่อมมือถือ ไอโฟน ไอแพด แอนดรอย ซ่อมเมนบอร์ด เปลี่ยนจอ เปลี่ยนแบต ซ่อมคอมพิวเตอร์ โน๊ตบุ้ค เครื่องปริ้นเตอร์ นครปฐม เมืองนครปฐม ถ.ราชมรรคา">
+<div class="num">20</div><div class="info"><div class="name">Bank Computer ซ่อมมือถือ ไอโฟน ไอแพด แอนดรอย ซ่อมเมนบอร์ด เปลี่ยนจอ เปลี่ยนแบต ซ่อมคอมพิวเตอร์ โน๊ตบุ้ค เครื่องปริ้นเตอร์</div>
+<div class="area">อ.เมืองนครปฐม • นครปฐม</div><div class="place">📍 ถ.ราชมรรคา</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Bank%20Computer%20%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nakhonpathom" data-search="ซ่อมมือถือ iphone-ipad นครปฐม by ช่างโจ้ นครปฐม เมืองนครปฐม สนามจันทร์">
+<div class="num">21</div><div class="info"><div class="name">ซ่อมมือถือ iPhone-iPad นครปฐม by ช่างโจ้</div>
+<div class="area">อ.เมืองนครปฐม • นครปฐม</div><div class="place">📍 สนามจันทร์</div>
+<a href="https://www.google.com/maps/search/?api=1&query=%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%20iPhone-iPad%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1%20%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%88%E0%B9%89" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article><article class="shop nakhonpathom" data-search="ifix-studio ศูนย์ซ่อม iphone ipad macbook นครปฐม นครปฐม เมืองนครปฐม ถ.ยิงเป้า">
+<div class="num">22</div><div class="info"><div class="name">iFix-Studio ศูนย์ซ่อม iPhone iPad MacBook นครปฐม</div>
+<div class="area">อ.เมืองนครปฐม • นครปฐม</div><div class="place">📍 ถ.ยิงเป้า</div>
+<a href="https://www.google.com/maps/search/?api=1&query=iFix-Studio%20%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9B%E0%B8%90%E0%B8%A1" target="_blank" rel="noopener noreferrer">เปิด Google Maps</a></div></article></section>
+<div class="notice"><b>“ชี้ให้” ไม่ได้รีวิวหรือรับรองร้าน</b><br>เรารวบรวมชื่อ สถานที่ และพิกัดเพื่อช่วยให้หาได้ง่ายขึ้น รายละเอียดเพิ่มเติมสามารถตรวจสอบต่อใน Google Maps ได้</div>
+</main>
+<footer><b>💬 ช่วยกันชี้:</b> มีร้านที่ยังไม่มีในลิสต์ คอมเมนต์ชื่อร้าน + พื้นที่ได้ ข้อมูลจะได้รับการตรวจสอบก่อนเพิ่ม<br>
+อ้างอิงข้อมูลสถานที่และพิกัดจาก Google Maps • ตรวจสอบล่าสุด 10 ส.ค. 2026</footer>
+<script>
+(function(){
+const q=document.getElementById('q');
+const shops=[...document.querySelectorAll('.shop')];
+q.addEventListener('input',function(){
+ let s=q.value.trim().toLowerCase();
+ shops.forEach(x=>x.classList.toggle('hidden',!x.dataset.search.includes(s)));
+});
+})();
+</script></body></html>
